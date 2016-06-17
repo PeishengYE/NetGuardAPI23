@@ -29,7 +29,8 @@ pthread_t thread_id = 0;
 pthread_mutex_t lock;
 jboolean stopping = 0;
 jboolean signaled = 0;
-int loglevel = ANDROID_LOG_WARN;
+//int loglevel = ANDROID_LOG_WARN;
+int loglevel = ANDROID_LOG_INFO;
 
 extern int max_tun_msg;
 extern FILE *pcap_file;
